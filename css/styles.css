@@ -58,6 +58,34 @@ html {
     margin-block-end: -1em
 }
 
+.h2{
+    color: aliceblue;
+    padding: 22px 0px 0px 25px;
+    text-transform: capitalize;
+    margin-block-end: -1em
+}
+.contact{
+    color: aliceblue;
+    padding: 22px 0px 0px 25px;
+    text-transform: capitalize;
+    margin: -50px 0px 16px 150px;;
+    
+}
+.h3{
+    color: aliceblue;
+    padding: 2px 0px 44px 26px;
+    text-transform: capitalize;
+    margin-block-end: -3em;
+
+}
+
+.h4{
+    color: red;
+    padding: 6px 0px 44px 34px;
+    text-transform: capitalize;
+    margin-block-end: -2em;
+
+}
 
 header nav ul {
     padding: 0;
@@ -83,11 +111,43 @@ header nav ul li:not(:last-child) {
 }
 .menu {
     position: absolute;
-    right: 45%;
-    top: 15%;
+    right: 42%;
+    top: 7%;
     font-size: 25px;
     text-transform: capitalize;
     }
-main section figure img{
-    width: 44%;
+.linha{
+    width: 45%;
 }
+.linha:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.coluna {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.coluna {
+    float: left;
+    width: 16%;
+    padding: 2px;
+  }
+  .coluna img {
+    opacity: 0.8; 
+    cursor: pointer;
+    width: 100%; 
+  }
+  .coluna img:hover {
+    opacity: 1;
+  }
+  .container{
+    position: relative;
+    display: block;
+    display: none
+  }
+ .container img{
+    width:50%;
+}
+ 
+

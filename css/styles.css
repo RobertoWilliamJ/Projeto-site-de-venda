@@ -118,12 +118,15 @@ header nav ul li:not(:last-child) {
     }
 .linha{
     width: 45%;
+    margin-left: 25px;
+
 }
-.linha:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+
+.linha input{
+    display: none;
+}
+
 .coluna {
     opacity: 0.8;
     cursor: pointer;
@@ -143,11 +146,10 @@ header nav ul li:not(:last-child) {
   }
   .container{
     position: relative;
-    display: block;
-    display: none
+    /* display: block;
+    display: none*/
   }
  .container img{
-    width:50%;
+    width:40%;
 }
  
-

@@ -116,40 +116,22 @@ header nav ul li:not(:last-child) {
     font-size: 25px;
     text-transform: capitalize;
     }
-.linha{
+.linha img{
     width: 45%;
     margin-left: 25px;
-
+    
 }
 
-
-.linha input{
-    display: none;
-}
-
-.coluna {
-    opacity: 0.8;
-    cursor: pointer;
-}
-.coluna {
-    float: left;
-    width: 16%;
-    padding: 2px;
-  }
-  .coluna img {
-    opacity: 0.8; 
-    cursor: pointer;
-    width: 100%; 
-  }
-  .coluna img:hover {
-    opacity: 1;
-  }
-  .container{
-    position: relative;
-    /* display: block;
-    display: none*/
-  }
- .container img{
-    width:40%;
-}
  
+/*botoes*/
+.controls {
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px;
+            background-color: #e6e5e5;
+        }
